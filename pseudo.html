@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h1:hover{
+            color: brown;
+            background-color: aqua;
+           
+            font-weight: 900;
+            
+        }
+        .middle-person:focus{
+            color:blue;
+            font-weight: 700;
+              
+
+        }
+        a:visited{
+            color:red;
+        }
+        li:first-child{
+            color:aqua;
+        }
+        li:last-child{
+         background-color: brown;
+        }
+        li:nth-child(2n){
+            color: coral;
+        }
+        li:nth-child(2n+1){
+            background-color: darkgreen;
+        }
+        .Spe::after{
+            content: 'Hellow';
+            color:darkblue;
+            font-size: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text"> <br><br>
+    <a href="https://www.google.com/"> Google e jao</a> <br> <br>
+    <a href="https://www.jobnshop.com/"> Job ar jonno jao</a> <br>
+    <a href="https://site.new/">Samsung</a> <br>
+
+    <h3>Middel Size header-1</h3>
+    <h3 class="Spe">Middel Size header2</h3>
+    <h3>Middel Size header-3</h3>
+    <h3 class="Spe">Middel Size header-4</h3>
+    <h3 class="Spe">Middel Size header-5</h3>
+    <h3>Middel Size header-6</h3>
+   <ul>
+    <li>Alia</li>
+    <li>Dilya</li>
+    <li>kaliya</li>
+    <li>saliya</li>
+    <li>jalaiya</li>
+    <li>chaliya</li>
+    <li>Alia</li>
+    <li>Dilya</li>
+    <li>kaliya</li>
+    <li>saliya</li>
+    <li>jalaiya</li>
+    <li>chaliya</li>
+   </ul>
+
+</body>
+</html>
